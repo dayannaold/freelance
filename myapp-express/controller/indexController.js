@@ -27,10 +27,10 @@ const controller = {
         res.render('login', { title: 'Login' });
     },
     profile: function (req, res, next) {
-        res.render('login', { title: 'Perfil' });
+        res.render('profile', { title: 'Perfil' });
     },
     savedItens: function (req, res, next) {
-        res.render('login', { title: 'Itens Salvos' });
+        res.render('savedItens', { title: 'Itens Salvos' });
     }
 
 };
